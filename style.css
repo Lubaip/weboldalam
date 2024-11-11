@@ -310,9 +310,9 @@ body {
 .block{
     position: relative;
     margin: 10% auto 0;
-    width: 70%;
-    height: 550px;
-    background: linear-gradient(0deg , #D0D0D0 , #D0D0D0);
+    width: 80%;
+    height: 620px;
+    background: linear-gradient(0deg , #000000 , #302f2f);
 }
 
 .glow::before , .glow::after{
