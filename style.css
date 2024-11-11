@@ -303,15 +303,15 @@ pointer-events: none;
 body {
     margin: 0;
     padding: 0;
-    background-color: #808080;
+    background-color: #0f0f0f;
 
 }
 
 .block{
     position: relative;
     margin: 10% auto 0;
-    width: 80%;
-    height: 620px;
+    width: 82%;
+    height: 650px;
     background: linear-gradient(0deg , #000000 , #302f2f);
 }
 
