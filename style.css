@@ -300,6 +300,49 @@ pointer-events: none;
     }
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #808080;
+
+}
+
+.block{
+    position: relative;
+    margin: 10% auto 0;
+    width: 70%;
+    height: 550px;
+    background: linear-gradient(0deg , #D0D0D0 , #D0D0D0);
+}
+
+.glow::before , .glow::after{
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg , #e6fb04 , #ff6600,#00ff66 , #00ffff , #ff00ff, #ff0099, #6e0dd0 ,  #ff3300 , #099fff);
+    background-size: 400px;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    z-index: -1;
+    animation: animate 20s linear infinite;
+  }
+
+@keyframes animate{
+  0% {
+      background-position: 0 0;
+  }
+  50%{
+      background-position: 400% 0;
+  }
+  100%{
+      background-position: 0 0; 
+  }
+}
+
+.glow::after{
+    filter: blur(80px);
+}
 @keyframes manipActiveHover {
     100% {
         pointer-events: auto;
