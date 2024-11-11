@@ -310,8 +310,8 @@ body {
 .block{
     position: relative;
     margin: 10% auto 0;
-    width: 80%;
-    height: 690px;
+    width: 75%;
+    height: 650px;
     background: linear-gradient(0deg , #000000 , #302f2f);
 }
 
